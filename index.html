@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#0b0c10] text-zinc-100 min-h-screen antialiased">
+
+    <!-- NAVBAR -->
+    <nav class="max-w-5xl mx-auto px-6 py-6 flex justify-between items-center">
+        <!-- Logo Inisial -->
+        <div class="text-2xl font-bold tracking-tighter cursor-pointer">F.</div>
+        
+        <!-- Menu Navigasi -->
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-zinc-400">
+            <a href="#about" class="hover:text-zinc-100 transition-colors">About</a>
+            <a href="#experience" class="hover:text-zinc-100 transition-colors">Experience</a>
+            <a href="#projects" class="hover:text-zinc-100 transition-colors">Projects</a>
+            <a href="#contact" class="hover:text-zinc-100 transition-colors">Contact</a>
+        </div>
+        
+        <!-- Icon Dark Mode (Pemanis) -->
+        <div class="text-amber-400 text-lg cursor-pointer">☀️</div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main id="about" class="max-w-5xl mx-auto px-6 pt-16 pb-24 md:pt-28 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+        
+        <!-- Kolom Kiri: Teks & Biodata -->
+        <div class="flex-1 space-y-6 max-w-xl">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-zinc-100">
+                Hi, I'm <span class="text-blue-500">Faris</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl font-medium text-zinc-300">
+                Electrical Engineering @ Universitas Indonesia
+            </p>
+            
+            <p class="text-zinc-400 leading-relaxed text-base md:text-lg">
+                Undergraduate student interested in automation, instrumentation, and energy systems. Actively engaging in legislative structures and dynamic organizational environments to build strategic technical solutions.
+            </p>
+            
+            <!-- Tombol Aksi (CTA) -->
+            <div class="flex gap-4 pt-2">
+                <a href="#projects" class="px-5 py-2.5 bg-zinc-100 text-zinc-950 rounded-lg font-semibold text-sm hover:bg-zinc-200 transition-all shadow-sm">
+                    View my Projects
+                </a>
+                <a href="#contact" class="px-5 py-2.5 bg-transparent text-zinc-100 border border-zinc-800 rounded-lg font-semibold text-sm hover:bg-zinc-900 transition-all">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+
+        <!-- Kolom Kanan: Foto Profil Bulat -->
+        <div class="flex-shrink-0">
+            <div class="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-zinc-800/80 shadow-2xl bg-zinc-900 flex items-center justify-center">
+                <!-- SILAHKAN GANTI LINK DI BAWAH INI DENGAN PATH FOTO LO -->
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Profile" class="w-full h-full object-cover">
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- GARIS PEMBATAS TIPIS -->
+    <hr class="border-zinc-900 max-w-5xl mx-auto px-6">
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-2xl font-bold tracking-tight text-zinc-100 mb-10">My Experience</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Card Pengalaman 1 -->
+            <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all group">
+                <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">Mar 2026 - Present</span>
+                <h3 class="text-lg font-bold text-zinc-100 mt-2 group-hover:text-blue-400 transition-colors">Vice Chairman of Legislative Body</h3>
+                <p class="text-sm text-zinc-400 font-medium">MPM FTUI</p>
+                <p class="text-sm text-zinc-500 mt-3 leading-relaxed">
+                    Structuring policy frameworks, overseeing student regulations, and coordinating legislative drafting inside the student organization ecosystem.
+                </p>
+            </div>
+
+            <!-- Card Pengalaman 2 -->
+            <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all group">
+                <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">Sep 2025 - Jan 2026</span>
+                <h3 class="text-lg font-bold text-zinc-100 mt-2">Strategic Initiative Member</h3>
+                <p class="text-sm text-zinc-400 font-medium">Student Association</p>
+                <p class="text-sm text-zinc-500 mt-3 leading-relaxed">
+                    Collaborated on technical projects, community engineering blueprints, and streamlined internal organizational data operations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
