@@ -37,10 +37,10 @@
             <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-zinc-100">
                 Hi, I'm <span class="text-blue-500">Azra Farisi Muhammad</span>
             </h1>
-            <p class="text-lg md:text-xl font-medium text-zinc-300">
+            <p class="text-xl font-semibold text-zinc-200">
                 Electrical Engineering Student @ Universitas Indonesia
             </p>
-            <p class="text-zinc-400 leading-relaxed text-base">
+            <p class="text-zinc-400 leading-relaxed text-base md:text-lg">
                 Undergraduate student focused on control systems, industrial automation, and operational engineering stability. Blending technical discipline with rigorous analytical frameworks built from a passion for legislative structures, history, and philosophy.
             </p>
             <div class="flex gap-4 pt-2">
@@ -63,15 +63,22 @@
     <section id="education" class="max-w-5xl mx-auto px-6 py-12 scroll-mt-20">
         <h2 class="text-xs font-bold tracking-widest text-blue-500 uppercase mb-2">Academic Journey</h2>
         <h3 class="text-2xl font-bold tracking-tight text-zinc-100 mb-8">Education</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <!-- Universitas Indonesia -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all flex flex-col justify-between">
                 <div>
-                    <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">2024 - Present</span>
-                    <h4 class="text-lg font-bold text-zinc-100 mt-2">Universitas Indonesia</h4>
-                    <p class="text-xs text-zinc-400 font-medium mb-4">Undergraduate in Electrical Engineering</p>
-                    <p class="text-xs text-zinc-400 leading-relaxed">
+                    <div class="flex items-center gap-4 mb-4">
+                        <!-- SLOT LOGO UI -->
+                        <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                            <img src="logo-ui.png" alt="UI" class="w-full h-full object-cover onerror='this.style.display=\"none\"'">
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">2024 - Present</span>
+                            <h4 class="text-lg font-bold text-zinc-100">Universitas Indonesia</h4>
+                        </div>
+                    </div>
+                    <p class="text-sm text-zinc-300 leading-relaxed">
                         As an Electrical Engineering student at Universitas Indonesia, I focus on the intersection of control systems and industrial automation. I am passionate about designing intelligent automated frameworks and understanding the hardware-software integration that drives modern engineering stability.
                     </p>
                 </div>
@@ -80,22 +87,36 @@
             <!-- SMAN 68 Jakarta -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all flex flex-col justify-between">
                 <div>
-                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2021 - 2024</span>
-                    <h4 class="text-lg font-bold text-zinc-100 mt-2">SMAN 68 Jakarta</h4>
-                    <p class="text-xs text-zinc-400 font-medium mb-4">Natural Sciences (MIPA) Stream</p>
-                    <p class="text-xs text-zinc-400 leading-relaxed">
-                        My academic journey in the Natural Sciences stream at SMAN 68 Jakarta provided me with the rigorous problem-solving skills necessary to explore complex technical fields. Recognizing the potential of automation, I independently pursued programming and control systems engineering through self-directed learning. This foundational experience has shaped my logical approach to understanding smart systems and reinforces my commitment to advancing in the field of electrical and automation engineering.
+                    <div class="flex items-center gap-4 mb-4">
+                        <!-- SLOT LOGO SMA -->
+                        <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                            <img src="logo-sma68.png" alt="SMAN 68" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2021 - 2024</span>
+                            <h4 class="text-lg font-bold text-zinc-100">SMAN 68 Jakarta</h4>
+                        </div>
+                    </div>
+                    <p class="text-sm text-zinc-300 leading-relaxed">
+                        My academic journey in the Natural Sciences stream at SMAN 68 Jakarta provided me with the rigorous problem-solving skills necessary to explore complex technical fields. Recognizing the potential of automation, I independently pursued programming and control systems engineering through self-directed learning.
                     </p>
                 </div>
             </div>
 
             <!-- Al-Marjan -->
-            <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all flex flex-col justify-between">
+            <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl hover:border-zinc-700/60 transition-all flex flex-col justify-between md:col-span-2">
                 <div>
-                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">Accelerated Program</span>
-                    <h4 class="text-lg font-bold text-zinc-100 mt-2">Al-Marjan Islamic School</h4>
-                    <p class="text-xs text-zinc-400 font-medium mb-4">Elementary & Middle School</p>
-                    <p class="text-xs text-zinc-400 leading-relaxed">
+                    <div class="flex items-center gap-4 mb-4">
+                        <!-- SLOT LOGO AL MARJAN -->
+                        <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                            <img src="logo-almarjan.png" alt="Al-Marjan" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">Accelerated Program</span>
+                            <h4 class="text-lg font-bold text-zinc-100">Al-Marjan Islamic School</h4>
+                        </div>
+                    </div>
+                    <p class="text-sm text-zinc-300 leading-relaxed">
                         My cognitive and analytical foundation was shaped during my time at Al-Marjan Islamic School, where I developed a strategic approach to problem-solving. Learning the complex mechanics of the game of Go shifted my mindset from chasing immediate victories to mastering systematic execution and territory control—a philosophy I immediately applied to my academics. This structured learning methodology enabled me to complete the middle school accelerated program in a record-breaking 15 months.
                     </p>
                 </div>
@@ -108,9 +129,9 @@
     <section id="professional" class="max-w-5xl mx-auto px-6 py-12 scroll-mt-20">
         <h2 class="text-xs font-bold tracking-widest text-blue-500 uppercase mb-2">Industry Experience</h2>
         <h3 class="text-2xl font-bold tracking-tight text-zinc-100 mb-8">Professional Experience</h3>
-        <div class="bg-zinc-900/20 border border-zinc-800/60 p-6 rounded-xl border-dashed text-center py-10">
+        <div class="bg-zinc-900/20 border border-zinc-800/60 p-6 rounded-xl border-dashed text-center py-12">
             <p class="text-sm text-zinc-400">Currently exploring strategic internship paths within the energy, instrumentation, or automation sectors.</p>
-            <span class="inline-block mt-3 px-3 py-1 text-[10px] bg-blue-500/10 text-blue-400 border border-blue-500/20 font-semibold rounded-full uppercase tracking-wider">Open to Opportunities</span>
+            <span class="inline-block mt-3 px-4 py-1.5 text-xs bg-blue-500/10 text-blue-400 border border-blue-500/20 font-semibold rounded-full uppercase tracking-wider">Open to Opportunities</span>
         </div>
     </section>
 
@@ -120,38 +141,70 @@
         <h3 class="text-2xl font-bold tracking-tight text-zinc-100 mb-8">Organizational Experience</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             
+            <!-- MPM FTUI -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl group hover:border-zinc-700/60 transition-all">
-                <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">2026 Term</span>
-                <h4 class="text-lg font-bold text-zinc-100 mt-1 group-hover:text-blue-400 transition-colors">Vice Chairman of Electrical Fraction & Legislative Body</h4>
-                <p class="text-xs text-zinc-400 font-medium">MPM FTUI</p>
-                <p class="text-xs text-zinc-500 mt-3 leading-relaxed">
+                <div class="flex items-start gap-4 mb-3">
+                    <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                        <img src="logo-mpm.png" alt="MPM" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">2026 Term</span>
+                        <h4 class="text-base font-bold text-zinc-100 group-hover:text-blue-400 transition-colors">Vice Chairman of Electrical Fraction & Legislative Body</h4>
+                        <p class="text-xs text-zinc-400 font-medium">MPM FTUI</p>
+                    </div>
+                </div>
+                <p class="text-sm text-zinc-400 mt-3 leading-relaxed">
                     Driving legislative oversight, structural decision frameworks, and departmental representation within the student representative council ecosystem.
                 </p>
             </div>
 
+            <!-- IATMI Finance -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl group hover:border-zinc-700/60 transition-all">
-                <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2026</span>
-                <h4 class="text-lg font-bold text-zinc-100 mt-1">Staff Finance</h4>
-                <p class="text-xs text-zinc-400 font-medium">IATMI SM UI</p>
-                <p class="text-xs text-zinc-500 mt-3 leading-relaxed">
+                <div class="flex items-start gap-4 mb-3">
+                    <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                        <img src="logo-iatmi.png" alt="IATMI" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2026</span>
+                        <h4 class="text-base font-bold text-zinc-100">Staff Finance</h4>
+                        <p class="text-xs text-zinc-400 font-medium">IATM SM UI</p>
+                    </div>
+                </div>
+                <p class="text-sm text-zinc-400 mt-3 leading-relaxed">
                     Managing financial budgeting, strategic resource allocation, and accountability reporting for institutional chapters.
                 </p>
             </div>
 
+            <!-- SPE UI SC -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl group hover:border-zinc-700/60 transition-all">
-                <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2025 - Present</span>
-                <h4 class="text-lg font-bold text-zinc-100 mt-1">Active Member</h4>
-                <p class="text-xs text-zinc-400 font-medium">SPE UI SC (Society of Petroleum Engineers)</p>
-                <p class="text-xs text-zinc-500 mt-3 leading-relaxed">
+                <div class="flex items-start gap-4 mb-3">
+                    <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                        <img src="logo-spe.png" alt="SPE" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2025 - Present</span>
+                        <h4 class="text-base font-bold text-zinc-100">Active Member</h4>
+                        <p class="text-xs text-zinc-400 font-medium">SPE UI SC (Society of Petroleum Engineers)</p>
+                    </div>
+                </div>
+                <p class="text-sm text-zinc-400 mt-3 leading-relaxed">
                     Engaging in cross-functional technical programs, professional engineering bootcamp tracks, and global energy networking operations.
                 </p>
             </div>
 
+            <!-- IATMI Member -->
             <div class="bg-zinc-900/40 border border-zinc-800/80 p-6 rounded-xl group hover:border-zinc-700/60 transition-all">
-                <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2025 - Present</span>
-                <h4 class="text-lg font-bold text-zinc-100 mt-1">Active Member</h4>
-                <p class="text-xs text-zinc-400 font-medium">IATMI SM UI</p>
-                <p class="text-xs text-zinc-500 mt-3 leading-relaxed">
+                <div class="flex items-start gap-4 mb-3">
+                    <div class="w-12 h-12 rounded-full bg-zinc-800 border border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                        <img src="logo-iatmi.png" alt="IATMI" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase">2025 - Present</span>
+                        <h4 class="text-base font-bold text-zinc-100">Active Member</h4>
+                        <p class="text-xs text-zinc-400 font-medium">IATMI SM UI</p>
+                    </div>
+                </div>
+                <p class="text-sm text-zinc-400 mt-3 leading-relaxed">
                     Contributing to local technical optimization insights and multi-disciplinary energy community initiatives.
                 </p>
             </div>
@@ -165,26 +218,26 @@
         <h3 class="text-2xl font-bold tracking-tight text-zinc-100 mb-8">Projects</h3>
         <div class="space-y-4">
             
-            <div class="p-5 border-l-2 border-blue-500 bg-zinc-900/20 rounded-r-xl">
+            <div class="p-6 border-l-2 border-blue-500 bg-zinc-900/20 rounded-r-xl">
                 <h4 class="text-base font-bold text-zinc-100">Digital Legislative Education Initiative</h4>
                 <span class="text-xs text-zinc-500 block mt-0.5">Fraksi Elektro Instagram — Mid 2026</span>
-                <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p class="text-sm text-zinc-400 mt-2 leading-relaxed">
                     Developing and strategizing media content systems to democratize legislative theory, institutional frameworks, and policy structures for broader student engagement.
                 </p>
             </div>
 
-            <div class="p-5 border-l-2 border-zinc-700 bg-zinc-900/20 rounded-r-xl">
+            <div class="p-6 border-l-2 border-zinc-700 bg-zinc-900/20 rounded-r-xl">
                 <h4 class="text-base font-bold text-zinc-100">NEST UI Idea Competition Engagement</h4>
                 <span class="text-xs text-zinc-500 block mt-0.5">Team Crevfolver — September 2025</span>
-                <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p class="text-sm text-zinc-400 mt-2 leading-relaxed">
                     Formulated design parameters and systemic approaches to conceptual problem-solving in a collaborative competitive format.
                 </p>
             </div>
 
-            <div class="p-5 border-l-2 border-zinc-700 bg-zinc-900/20 rounded-r-xl">
+            <div class="p-6 border-l-2 border-zinc-700 bg-zinc-900/20 rounded-r-xl">
                 <h4 class="text-base font-bold text-zinc-100">Recycle Me Sustainability Framework</h4>
                 <span class="text-xs text-zinc-500 block mt-0.5">Environmental Initiative — Nov 2024 - Jan 2025</span>
-                <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p class="text-sm text-zinc-400 mt-2 leading-relaxed">
                     Executed operational logistics tracking and technical deployment parameters for automated plastic-to-reward mechanics.
                 </p>
             </div>
@@ -198,21 +251,17 @@
         <h3 class="text-2xl font-bold tracking-tight text-zinc-100 mb-8">Competitions & Olympiads</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            <!-- University Level Class -->
             <div class="space-y-4">
                 <h4 class="text-sm font-bold tracking-wider text-zinc-400 uppercase border-b border-zinc-800 pb-2">🎓 University Level</h4>
-                <!-- Placeholder Kartu Lomba Kuliah -->
-                <div class="bg-zinc-900/30 border border-zinc-800/60 p-4 rounded-xl text-center py-6">
-                    <p class="text-xs text-zinc-500">Add university engineering or case competitions here.</p>
+                <div class="bg-zinc-900/30 border border-zinc-800/60 p-6 rounded-xl text-center">
+                    <p class="text-sm text-zinc-500">Add university engineering or case competitions here.</p>
                 </div>
             </div>
 
-            <!-- High School Level Class -->
             <div class="space-y-4">
                 <h4 class="text-sm font-bold tracking-wider text-zinc-400 uppercase border-b border-zinc-800 pb-2">🏫 High School Level</h4>
-                <!-- Placeholder Kartu Lomba SMA -->
-                <div class="bg-zinc-900/30 border border-zinc-800/60 p-4 rounded-xl text-center py-6">
-                    <p class="text-xs text-zinc-500">Add high school physics, math, or technology olympiads here.</p>
+                <div class="bg-zinc-900/30 border border-zinc-800/60 p-6 rounded-xl text-center">
+                    <p class="text-sm text-zinc-500">Add high school physics, math, or technology olympiads here.</p>
                 </div>
             </div>
 
@@ -228,7 +277,7 @@
                 <div class="text-xl">🏆</div>
                 <div>
                     <h4 class="text-sm font-bold text-zinc-200">Formal Recognition & Academic Honors</h4>
-                    <p class="text-xs text-zinc-500 mt-0.5">Click edit to populate formal scholarship awards, project honors, or ranking achievements.</p>
+                    <p class="text-sm text-zinc-500 mt-0.5">Click edit to populate formal scholarship awards, project honors, or ranking achievements.</p>
                 </div>
             </div>
         </div>
