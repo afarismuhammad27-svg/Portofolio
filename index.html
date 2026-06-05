@@ -265,88 +265,89 @@
     <section id="projects" class="max-w-5xl mx-auto px-6 py-12 scroll-mt-20">
         <h2 class="text-xs font-bold tracking-widest text-orange-500 uppercase mb-2">Technical Execution</h2>
         <h3 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-8">Academic Projects</h3>
-        <div class="space-y-6">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             
-            <!-- SEMESTER 4 -->
-            <div class="p-6 border-l-2 border-orange-500 bg-zinc-100 dark:bg-zinc-900/20 rounded-r-xl transform transition-all duration-300 ease-in-out hover:bg-zinc-200/50 dark:hover:bg-zinc-900/40 hover:translate-x-1.5">
-                <div class="flex flex-col md:flex-row justify-between gap-6">
-                    <div class="flex-1">
-                        <h4 class="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Auto Filling Water System</h4>
-                        <span class="text-xs text-orange-500 font-medium block mt-0.5">Automation & Instrumentation — Semester 4</span>
-                        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed font-normal">
-                            Perancangan sistem instrumentasi kendali loop tertutup otomatis untuk pengisian cairan tangki berbasis batas ambang sensor fisis.
-                        </p>
-                    </div>
-                    <div class="w-full md:w-48 shrink-0">
-                        <img src="Project%20AUTO%20FILLING%20WATER.png" alt="Auto Filling Water" class="w-full h-28 object-cover rounded-lg shadow-sm border border-zinc-200 dark:border-zinc-800">
-                    </div>
+            <div class="bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800/80 p-6 rounded-xl shadow-sm flex flex-col sm:flex-row gap-4 items-start transform transition-all duration-300 hover:-translate-y-1.5 hover:border-zinc-300 dark:hover:border-zinc-700/80">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                    <a href="Project%20AUTO%20FILLING%20WATER.png" target="_blank" class="w-full h-full block group">
+                        <img src="Project%20AUTO%20FILLING%20WATER.png" alt="Auto Filling Water System" class="w-full h-full object-cover group-hover:opacity-80 transition-all duration-200 cursor-pointer">
+                    </a>
                 </div>
-            </div>
-
-            <!-- SEMESTER 3 -->
-            <div class="p-6 border-l-2 border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-900/20 rounded-r-xl transform transition-all duration-300 ease-in-out hover:bg-zinc-200/50 dark:hover:bg-zinc-900/40 hover:translate-x-1.5">
-                <div>
-                    <h4 class="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Machine Learning : Car Price Prediction & Analytics</h4>
-                    <span class="text-xs text-zinc-500 block mt-0.5">Data Science / Jupyter Notebook — Semester 3[cite: 4]</span>
-                    <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed font-normal mb-4">
-                        Pengembangan pipeline analitika data untuk eksplorasi dataset pasar otomotif dari platform Kaggle, pengolahan matriks statistik, serta visualisasi tren harga mobil komparatif[cite: 4].
+                <div class="flex-1">
+                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase block mb-0.5">Semester 4</span>
+                    <h4 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Auto Filling Water System</h4>
+                    <p class="text-sm font-bold text-orange-600 dark:text-orange-400 mt-0.5">Automation & Instrumentation</p>
+                    <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed font-normal text-justify">
+                        Perancangan sistem instrumentasi kendali loop tertutup otomatis untuk pengisian cairan tangki berbasis batas ambang sensor fisis.
                     </p>
-                    <!-- Menampilkan kedua gambar car price dari repo lu -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <img src="Project%20Machine%20learning%20car%20price%201.png" alt="Car Price Analysis 1" class="w-full h-28 object-cover rounded-lg shadow-sm border border-zinc-200 dark:border-zinc-800">
-                        <img src="Project%20Machine%20learning%20car%20price%202.png" alt="Car Price Analysis 2" class="w-full h-28 object-cover rounded-lg shadow-sm border border-zinc-200 dark:border-zinc-800">
-                    </div>
                 </div>
             </div>
 
-            <!-- SEMESTER 2: Monitoring Tangki -->
-            <div class="p-6 border-l-2 border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-900/20 rounded-r-xl transform transition-all duration-300 ease-in-out hover:bg-zinc-200/50 dark:hover:bg-zinc-900/40 hover:translate-x-1.5">
-                <div class="flex flex-col md:flex-row justify-between gap-6">
+            <div class="bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800/80 p-6 rounded-xl shadow-sm flex flex-col gap-4 items-start transform transition-all duration-300 hover:-translate-y-1.5 hover:border-zinc-300 dark:hover:border-zinc-700/80">
+                <div class="flex flex-col sm:flex-row gap-4 items-start w-full">
                     <div class="flex-1">
-                        <h4 class="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Studi Kasus : Monitoring Level Air pada Tangki Eksperimen</h4>
-                        <span class="text-xs text-zinc-500 block mt-0.5">C++ & TCP/IP Networking — Semester 2[cite: 1]</span>
-                        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed font-normal">
-                            Sistem monitoring terdistribusi Multi-Client Server untuk membaca ketinggian volume air laboratorium secara real-time, lengkap dengan validasi multi-threading, kalkulator debit, dan ekspor otomatis database berkala berformat JSON[cite: 1].
+                        <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase block mb-0.5">Semester 3</span>
+                        <h4 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Machine Learning : Car Price Prediction</h4>
+                        <p class="text-sm font-bold text-orange-600 dark:text-orange-400 mt-0.5">Data Science / Jupyter Notebook</p>
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed font-normal text-justify">
+                            Pengembangan pipeline analitika data untuk eksplorasi dataset pasar otomotif dari platform Kaggle, pengolahan matriks statistik, serta visualisasi tren harga mobil komparatif.
                         </p>
                     </div>
-                    <div class="w-full md:w-48 shrink-0">
-                        <img src="Project%20Water%20monitoring%20system.png" alt="Water Monitoring System" class="w-full h-28 object-cover rounded-lg shadow-sm border border-zinc-200 dark:border-zinc-800">
-                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-3 w-full mt-1">
+                    <a href="Project%20Machine%20learning%20car%20price%201.png" target="_blank" class="block group rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-700 h-16 sm:h-20">
+                        <img src="Project%20Machine%20learning%20car%20price%201.png" alt="Car Price Analysis 1" class="w-full h-full object-cover group-hover:opacity-80 transition-all duration-200 cursor-pointer">
+                    </a>
+                    <a href="Project%20Machine%20learning%20car%20price%202.png" target="_blank" class="block group rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-700 h-16 sm:h-20">
+                        <img src="Project%20Machine%20learning%20car%20price%202.png" alt="Car Price Analysis 2" class="w-full h-full object-cover group-hover:opacity-80 transition-all duration-200 cursor-pointer">
+                    </a>
                 </div>
             </div>
 
-            <!-- SEMESTER 2: Jam Catur -->
-            <div class="p-6 border-l-2 border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-900/20 rounded-r-xl transform transition-all duration-300 ease-in-out hover:bg-zinc-200/50 dark:hover:bg-zinc-900/40 hover:translate-x-1.5">
-                <div class="flex flex-col md:flex-row justify-between gap-6">
-                    <div class="flex-1">
-                        <h4 class="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Jam Catur Analog</h4>
-                        <span class="text-xs text-zinc-500 block mt-0.5">Proteus Circuit Design — Semester 2[cite: 3]</span>
-                        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed font-normal">
-                            Desain arsitektur skema elektronik dan pengujian simulasi sirkuit logika terintegrasi menggunakan perangkat lunak Proteus untuk sistem hitung mundur kompetisi catur[cite: 3].
-                        </p>
-                    </div>
-                    <div class="w-full md:w-48 shrink-0">
-                        <!-- Pake placeholder dulu karena file belum ada di root GitHub lu -->
-                        <div class="w-full h-28 bg-zinc-200 dark:bg-zinc-800 rounded-lg flex items-center justify-center border border-dashed border-zinc-400 dark:border-zinc-600">
-                            <span class="text-zinc-500 text-[10px] text-center px-2">Gambar Jam Catur Belum Di-upload</span>
-                        </div>
-                    </div>
+            <div class="bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800/80 p-6 rounded-xl shadow-sm flex flex-col sm:flex-row gap-4 items-start transform transition-all duration-300 hover:-translate-y-1.5 hover:border-zinc-300 dark:hover:border-zinc-700/80">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                    <a href="Project%20Water%20monitoring%20system.png" target="_blank" class="w-full h-full block group">
+                        <img src="Project%20Water%20monitoring%20system.png" alt="Water Monitoring System" class="w-full h-full object-cover group-hover:opacity-80 transition-all duration-200 cursor-pointer">
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase block mb-0.5">Semester 2</span>
+                    <h4 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Monitoring Level Air</h4>
+                    <p class="text-sm font-bold text-orange-600 dark:text-orange-400 mt-0.5">C++ & TCP/IP Networking</p>
+                    <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed font-normal text-justify">
+                        Sistem monitoring terdistribusi Multi-Client Server untuk membaca ketinggian volume air laboratorium secara real-time, lengkap dengan validasi multi-threading, kalkulator debit, dan ekspor otomatis database berkala berformat JSON.
+                    </p>
                 </div>
             </div>
 
-            <!-- SEMESTER 1 -->
-            <div class="p-6 border-l-2 border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-900/20 rounded-r-xl transform transition-all duration-300 ease-in-out hover:bg-zinc-200/50 dark:hover:bg-zinc-900/40 hover:translate-x-1.5">
-                <div class="flex flex-col md:flex-row justify-between gap-6">
-                    <div class="flex-1">
-                        <h4 class="text-base font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Case Study : Lampu Lalu Lintas</h4>
-                        <span class="text-xs text-zinc-500 block mt-0.5">Python OOP — Semester 1[cite: 2]</span>
-                        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed font-normal">
-                            Simulasi pengontrol lampu lalu lintas adaptif berdasarkan volume kendaraan di persimpangan empat arah menggunakan konsep pemrograman berorientasi objek (OOP)[cite: 2].
-                        </p>
-                    </div>
-                    <div class="w-full md:w-48 shrink-0">
-                        <img src="Project%20Trafic%20light%20system.png" alt="Traffic Light System" class="w-full h-28 object-cover rounded-lg shadow-sm border border-zinc-200 dark:border-zinc-800">
-                    </div>
+            <div class="bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800/80 p-6 rounded-xl shadow-sm flex flex-col sm:flex-row gap-4 items-start transform transition-all duration-300 hover:-translate-y-1.5 hover:border-zinc-300 dark:hover:border-zinc-700/80">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-zinc-100 dark:bg-zinc-200 dark:bg-zinc-800 border border-dashed border-zinc-400 dark:border-zinc-600 flex-shrink-0 overflow-hidden flex items-center justify-center p-2">
+                    <span class="text-zinc-500 text-[10px] text-center font-medium leading-tight">No Image</span>
+                </div>
+                <div class="flex-1">
+                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase block mb-0.5">Semester 2</span>
+                    <h4 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Jam Catur Analog</h4>
+                    <p class="text-sm font-bold text-orange-600 dark:text-orange-400 mt-0.5">Proteus Circuit Design</p>
+                    <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed font-normal text-justify">
+                        Desain arsitektur skema elektronik dan pengujian simulasi sirkuit logika terintegrasi menggunakan perangkat lunak Proteus untuk sistem hitung mundur kompetisi catur.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800/80 p-6 rounded-xl shadow-sm flex flex-col sm:flex-row gap-4 items-start transform transition-all duration-300 hover:-translate-y-1.5 hover:border-zinc-300 dark:hover:border-zinc-700/80">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex-shrink-0 overflow-hidden flex items-center justify-center">
+                    <a href="Project%20Trafic%20light%20system.png" target="_blank" class="w-full h-full block group">
+                        <img src="Project%20Trafic%20light%20system.png" alt="Traffic Light System" class="w-full h-full object-cover group-hover:opacity-80 transition-all duration-200 cursor-pointer">
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <span class="text-xs font-semibold text-zinc-500 tracking-wider uppercase block mb-0.5">Semester 1</span>
+                    <h4 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Lampu Lalu Lintas</h4>
+                    <p class="text-sm font-bold text-orange-600 dark:text-orange-400 mt-0.5">Python OOP</p>
+                    <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed font-normal text-justify">
+                        Simulasi pengontrol lampu lalu lintas adaptif berdasarkan volume kendaraan di persimpangan empat arah menggunakan konsep pemrograman berorientasi objek (OOP).
+                    </p>
                 </div>
             </div>
 
